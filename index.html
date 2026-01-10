@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XP1.UK</title>
+  <!-- Google Fonts - Gaming style -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- FontAwesome for GitHub icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    /* Reset & Body */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      height: 100vh;
+      background-color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Press Start 2P', cursive;
+      color: #fff;
+      text-align: center;
+    }
+
+    /* XP1.UK Title */
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    /* Thin red underline */
+    h1::after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 2px;
+      background-color: red;
+      margin: 10px auto 0 auto;
+    }
+
+    /* GitHub Icon */
+    .github-icon {
+      margin-top: 30px;
+      font-size: 2.5rem;
+      color: #fff;
+      transition: color 0.3s;
+    }
+
+    .github-icon:hover {
+      color: red;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2rem;
+      }
+      h1::after {
+        width: 80px;
+      }
+      .github-icon {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>XP1.UK</h1>
+
+  <a href="https://github.com/xp1uk" target="_blank">
+    <i class="fab fa-github github-icon"></i>
+  </a>
+
+</body>
+</html>
