@@ -1,3 +1,17 @@
+# Xp1.uk 
+Scrypt Algorithm 
+21,000,000 Coins
+Block Time 1 Minute
+50 Coin Rewards per Block
+6 min Block Confirmation 
+
+
+
+
+
+
+# What's in XP1's Future
+
 # XP1 — Experimental Proof-of-Work Architecture
 
 XP1 is an experimental blockchain architecture exploring how a Proof-of-Work (PoW) system might be designed today with an explicit focus on long-term resistance to capture, centralization, and single-vector dependency.
