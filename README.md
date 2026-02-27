@@ -1,4 +1,4 @@
-# Xp1.uk 
+# Xp1
 Scrypt Algorithm 
 21,000,000 Coins
 Block Time 1 Minute
